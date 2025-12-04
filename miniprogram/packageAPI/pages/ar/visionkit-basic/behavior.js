@@ -99,7 +99,7 @@ export default function getBehavior() {
                             mode: 3
                         },
                     },
-                    version: 'v1',
+                    version: 'v2',
                     gl: this.gl
                 })
                 session.start(err => {

@@ -61,6 +61,7 @@ export function registerGLTFLoader(THREE) {
             content = THREE.LoaderUtils.decodeText(new Uint8Array(data))
           }
         }
+        console.log('64',content)
         var json = JSON.parse(content);
         if (json.asset === undefined || json.asset.version[0] < 2) {
           if (onError) onError(new Error('THREE.GLTFLoader: Unsupported asset. glTF versions >=2.0 are supported. Use LegacyGLTFLoader instead.'));

@@ -6,18 +6,18 @@
   <xr-node>
 
     <!-- plane -->
-    <xr-ar-tracker mode="Plane">
+    <!-- <xr-ar-tracker mode="Plane">
       <xr-gltf model="anchor"></xr-gltf>
-    </xr-ar-tracker>
+    </xr-ar-tracker> -->
 
     <!-- marker -->
-    <!-- <xr-ar-tracker id="lockTracker" mode="Marker" src="https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/marker/2dmarker-test.jpg">
+    <xr-ar-tracker id="lockTracker" mode="Marker" src="https://mmbizwxaminiprogram-1258344707.cos.ap-guangzhou.myqcloud.com/xr-frame/demo/marker/2dmarker-test.jpg">
       <xr-node id="lockItem">
         <xr-gltf model="butterfly" anim-autoplay position="0.2 0 -0.2" scale="0.6 0.6 0.6" rotation="0 -50 0" />
         <xr-gltf model="butterfly" anim-autoplay position="0.4 0 0.3" scale="0.5 0.5 0.5" rotation="0 -50 0" />
         <xr-gltf model="butterfly" anim-autoplay position="-0.3 0 0.3" scale="0.4 0.4 0.4" rotation="0 -50 0" />
       </xr-node>
-    </xr-ar-tracker> -->
+    </xr-ar-tracker>
 
     <!-- 识别成功后放置的世界位置 -->
     <!-- marker 会动态创建并放在root下 -->
